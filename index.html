@@ -78,7 +78,7 @@
 					kilka przykładów na to, jak można zaangażować się w dzieło Boskich
 					Kolonii, ale będziemy wdzięczni za każdą formę pomocy - na dole strony można znaleźć nasze
 					informacje kontaktowe.</p>
-				<div class="items style1 medium align-center">
+				<div class="items style1 big align-center">
 					<section>
 						<span class="icon solid style2 major solid fa-users"></span>
 						<h3>Opieka nad grupą</h3>
@@ -109,7 +109,8 @@
 					<section>
 						<span class="icon solid style2 major fa-handshake-angle"></span>
 						<h3>Sponsorzy</h3>
-						<p>Transport, wyżywienie, odzież, materace, łóżka polowe, sprzęt medyczny i sportowy, gry planszowe.</p>
+						<p>Transport, wyżywienie, odzież, materace, łóżka polowe, sprzęt medyczny i sportowy, gry
+							planszowe.</p>
 						<ul class="actions stacked">
 							<li><a href="#" class="button small">Więcej</a>
 							</li>
@@ -121,22 +122,17 @@
 						<p>Boskie Kolonie nie mogłyby się udać bez wsparcia tych, którzy życzą nam dobrze. Dziękujemy za
 							pamięć w modlitwie :)
 						</p>
-						<ul class="actions stacked">
-							<li><a href="#" class="button small">Więcej</a>
-							</li>
-						</ul>
 					</section>
 				</div>
 			</div>
 		</section>
 
 		<!-- Gallery -->
-		<section class="wrapper style1 align-left">
-			<!-- Gallery -->
-			<div class="gallery lightbox style1 small">
+		<section class="wrapper style1 align-center">
+			<div class="gallery style1 small lightbox">
 				<article>
 					<a href="images/gallery/fulls/03.JPG" class="image">
-						<img src="images/gallery/thumbs/03.JPG" alt="" />
+						<img src="images/gallery/thumbs/03.JPG" alt />
 					</a>
 					<div class="caption">
 						<h3>Magna Amet</h3>
@@ -180,39 +176,43 @@
 					</div>
 				</article>
 			</div>
-
 		</section>
 
-		<!-- Seven -->
-		<!-- <section class="wrapper style1 align-left">
-			<div class="inner medium">
-				<header>
-					<h2>Formularz kontaktowy</h2>
-					<p>* Wiadomości staramy się sprawdzać na bieżąco, ale jeżeli przez długi czas nie otrzymasz
-						odpowiedzi, prosimy o bezpośredni kontakt telefoniczny.</p>
-				</header>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Imię</label>
-							<input type="text" name="name" id="name" value="" />
+		<section class="wrapper style1 align-center"  id="contact">
+			<div class="inner">
+				<h2>Napisz do nas &nbsp;<i class="fa-solid fa-face-smile-wink"></i></h2>
+				<div class="index align-left">
+					<section>
+						<div class="content">
+							<form action="https://api.web3forms.com/submit" method="POST">
+								<input type="hidden" name="access_key" value="f2065b65-b394-4c77-92bb-aa1a6af60192">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Imię / Nazwa</label>
+										<input type="text" name="name" id="name" value="">
+									</div>
+									<div class="field half">
+										<label for="email">Email *</label>
+										<input type="email" name="email" id="email" value="" required>
+									</div>
+									<div class="field">
+										<label for="message">Wiadomość *</label>
+										<textarea name="message" id="message" rows="6" required></textarea>
+									</div>
+								</div>
+								<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+								<input type="hidden" name="redirect" value="https://www.boskiekolonie.pl/thank-you">
+								<ul class="actions">
+									<li>
+										<input class="primary fit" type="submit" name="submit" id="submit" value="Wyślij">
+									</li>
+								</ul>
+							</form>
 						</div>
-						<div class="field half">
-							<label for="email">Adres e-mail</label>
-							<input type="email" name="email" id="email" value="" />
-						</div>
-						<div class="field">
-							<label for="message">Krótka wiadomość</label>
-							<textarea name="message" id="message" rows="6"></textarea>
-						</div>
-					</div>
-					<ul class="actions stacked align-right">
-						<li><input class="button primary fit" type="submit" name="submit" id="submit" value="Wyślij" />
-						</li>
-					</ul>
-				</form>
+					</section>
+				</div>
 			</div>
-		</section> -->
+		</section>
 
 		<!-- Footer -->
 		<footer class="wrapper style1 align-center">
